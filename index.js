@@ -241,7 +241,16 @@ if (
         );
       }
     };
-
+//Owner react
+    if (senderNumber.includes("94773259828")) {
+      if (isReact) return;
+      m.react("🌝");
+  }
+  
+    if (senderNumber.includes("94742179316")) {
+      if (isReact) return;
+      m.react("👀");
+                  }
     //work type
     if (!isOwner && config.MODE === "private") return;
     if (!isOwner && isGroup && config.MODE === "inbox") return;
