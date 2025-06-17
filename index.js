@@ -28,7 +28,7 @@ const util = require("util");
 const { sms, downloadMediaMessage } = require("./lib/msg");
 const axios = require("axios");
 const { File } = require("megajs");
-
+const prefix = config.PREFIX;
 const ownerNumber = config.OWNER_NUM;
 
 //===================SESSION-AUTH============================
@@ -52,13 +52,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-  //mongo connect
-  const connectDB = require("./lib/mongodb");
-  connectDB();
-  //=======================
-  const { readEnv } = require("./lib/database");
-  const config = await readEnv();
-  const prefix = config.PREFIX;
+
   //===========================
 
   console.log("Connecting 𝐏𝐑𝐈𝐍𝐙𝐘-𝐌𝐃");
