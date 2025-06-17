@@ -10,5 +10,6 @@ module.exports = {
   OWNER_NUM: process.env.OWNER_NUM || "94773259828",
   PREFIX: process.env.PREFIX || ".",
   ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/sathsidu99/PRINZY-MD-MEDIA/refs/heads/main/LOGO/alive.jpeg",
-  ALIVE_MSG: process.env.ALIVE_MSG|| "Hello , 𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈 is alive now!!\n\n> 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒𝐀𝐓𝐇𝐒𝐈𝐃𝐔 𝐀𝐆𝐑𝐄𝐒𝐀𝐑𝐀",
+  ALIVE_MSG: process.env.ALIVE_MSG || "Hello , 𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈 is alive now!!\n\n> 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒𝐀𝐓𝐇𝐒𝐈𝐃𝐔 𝐀𝐆𝐑𝐄𝐒𝐀𝐑𝐀",
+  AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 };
