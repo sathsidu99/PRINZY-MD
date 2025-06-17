@@ -1,5 +1,5 @@
 const { cmd, commands } = require("../command");
-const { Sticker } = require("");
+const { Sticker } = require("wa-sticker-formatter");
 const { downloadMediaMessage } = require("../lib/msg.js"); // Adjust the path as needed
 const fs = require("fs");
 
