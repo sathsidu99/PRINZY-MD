@@ -88,7 +88,7 @@ cmd(
         from,
         {
           audio: { url: songData.download.url },
-          mimetype: "audio/mpeg",
+          mimetype: "videi/mp4",
         },
         { quoted: mek }
       );
@@ -98,8 +98,8 @@ cmd(
         from,
         {
           document: { url: songData.download.url },
-          mimetype: "audio/mpeg",
-          fileName: `${data.title}.mp3`,
+          mimetype: "video/mp4",
+          fileName: `${data.title}.mp4`,
           caption: "𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒𝐀𝐓𝐇𝐒𝐈𝐃𝐔",
         },
         { quoted: mek }
