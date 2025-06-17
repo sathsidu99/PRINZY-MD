@@ -5,7 +5,7 @@
 <div class = "repo" align = "center">
  
 <a href = "#">
-<img src = "https://raw.githubusercontent.com/sathsidu99/PRINZY-MD-MEDIA/refs/heads/main/LOGO/other3.jpeg"  width="300" height="200">
+<img src = "https://raw.githubusercontent.com/sathsidu99/PRINZY-MD-MEDIA/refs/heads/main/LOGO/other3.jpeg"  width="300" height="300">
 </img>
  <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=𝐏𝐑𝐈𝐍𝐙𝐘+𝐌𝐃+🌈+WHATSAPP+BOT" alt="">
@@ -25,13 +25,13 @@
 > To deploy, generate your session ID from the link below:
 <p align="left">
   <a href="https://prinzy-md-pair.onrender.com/?">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-FAED27?style=for-the-badge"/>
   </a>
 </p>
 
 <p align="left">
   <a href="https://prinzy-md-pair-3.onrender.com/?">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-F23CA6?style=for-the-badge"/>
   </a>
 </p>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
