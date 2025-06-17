@@ -6,13 +6,12 @@ function convertToBool(text, fault = "true") {
   return text === fault ? true : false;
 }
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || "tdowxCob#9kbTr-ERDeQoqEj3IySBdc6w8757KXo6sHyiMT4AYD0",
-  OWNER_NUM: process.env.OWNER_NUM || "94773259828",
-  PREFIX: process.env.PREFIX || ".",
-  ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/sathsidu99/PRINZY-MD-MEDIA/refs/heads/main/LOGO/alive.jpeg",
-  ALIVE_MSG: process.env.ALIVE_MSG || "Hello , 𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈 is alive now!!\n\n> 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒𝐀𝐓𝐇𝐒𝐈𝐃𝐔 𝐀𝐆𝐑𝐄𝐒𝐀𝐑𝐀",
+  SESSION_ID: process.env.SESSION_ID || "tdowxCob#9kbTr-ERDeQoqEj3IySBdc6w8757KXo6sHyiMT4AYD0", // replace your session id 
+  OWNER_NUM: process.env.OWNER_NUM || "94773259828", // replace your number
+  PREFIX: process.env.PREFIX || ".",  // enter your prefix ( ,/./@/$/%/& )
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://raw.githubusercontent.com/sathsidu99/PRINZY-MD-MEDIA/refs/heads/main/LOGO/alive.jpeg", // dont replace 
+  ALIVE_MSG: process.env.ALIVE_MSG || "Hello , 𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈 is alive now!!\n\n> 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒𝐀𝐓𝐇𝐒𝐈𝐃𝐔 𝐀𝐆𝐑𝐄𝐒𝐀𝐑𝐀", // dont replace 
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-  MODE: process.env.MODE || "public",
-  GEMINI_API_KEY: process.env.GEMINI_API_KEY || "AIzaSyD38xxJQjbBRjh6jBf4Biwxs36NHkJNrQI",
-  MOVIE_API_KEY: process.env.MOVUE_API_KEY || "sky|c420cf946ade926ce0b3aef2a80fde23344e1651",
+  MODE: process.env.MODE || "public", // replace your bot mode ( private / public / group / inbox )
+  MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|c420cf946ade926ce0b3aef2a80fde23344e1651", // replace your movie api key
 };
