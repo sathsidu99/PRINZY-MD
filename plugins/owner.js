@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 
 cmd({
     pattern: "block",
-    react: "⚠️",
+    react: "🚫",
     alias: ["ban"],
     desc: "Block a user instantly.",
     category: "main",
@@ -34,7 +34,7 @@ async (robin, mek, m, { quoted, reply, isOwner }) => {
 cmd({
     pattern: "kick",
     alias: ["remove", "ban"],
-    react: "⚠️",
+    react: "🦵",
     desc: "Remove a mentioned user from the group.",
     category: "main",
     filename: __filename
@@ -79,7 +79,7 @@ async (robin, mek, m, { from, isGroup, isAdmins, isBotAdmins, reply, quoted }) =
 cmd({
     pattern: "left",
     alias: ["leave", "exit"],
-    react: "⚠️",
+    react: "👋",
     desc: "Leave the current group.",
     category: "main",
     filename: __filename
@@ -108,7 +108,7 @@ async (robin, mek, m, { from, isGroup, isOwner, reply }) => {
 cmd({
     pattern: "mute",
     alias: ["silence", "lock"],
-    react: "⚠️",
+    react: "🔇",
     desc: "Set group chat to admin-only messages.",
     category: "main",
     filename: __filename
@@ -138,7 +138,7 @@ async (robin, mek, m, { from, isGroup, isAdmins, isBotAdmins, reply }) => {
 cmd({
     pattern: "unmute",
     alias: ["unlock"],
-    react: "⚠️",
+    react: "🔊",
     desc: "Allow everyone to send messages in the group.",
     category: "main",
     filename: __filename
@@ -206,7 +206,7 @@ async (robin, mek, m, { from, isGroup, isAdmins, isBotAdmins, reply, args }) => 
 cmd({
     pattern: "demote",
     alias: ["member"],
-    react: "⚠️",
+    react: "📈",
     desc: "Remove admin privileges from a mentioned user.",
     category: "main",
     filename: __filename
@@ -254,7 +254,7 @@ async (robin, mek, m, { from, isGroup, isAdmins, isBotAdmins, reply, quoted }) =
 cmd({
     pattern: "promote",
     alias: ["admin", "makeadmin"],
-    react: "⚡",
+    react: "📉",
     desc: "Grant admin privileges to a mentioned user.",
     category: "main",
     filename: __filename
