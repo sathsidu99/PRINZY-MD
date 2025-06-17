@@ -112,7 +112,7 @@ jobs:
 ### Thank You Dear
 
 > DEVELOPER OF 𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈
-- [Lord Malvin ](https://github.com/sathsidu99)
+- [SATHSIDU AGRESARA ](https://github.com/sathsidu99)
 - Creater and Owner Of 𝐏𝐑𝐈𝐍𝐙𝐘-𝐌𝐃
 
 > 𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈 Helper
