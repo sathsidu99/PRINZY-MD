@@ -72,18 +72,20 @@ cmd(
     ▫️.video <text>
     ▫️.fb <link>
 | *GROUP COMMANDS* |
-${menu.group}
+    ▫️.block
+    ▫️.kick
+    ▫️.left
+    ▫️.mute
+    ▫️.unmute
+    ▫️.add
+    ▫️.demote
+    ▫️.promote
 | *OWNER COMMANDS* |
     ▫️.restart
     ▫️.update
 | *CONVERT COMMANDS* |
     ▫️.sticker <reply img>
     ▫️.img <reply sticker>
-    ▫️.tr <lang><text>
-    ▫️.tts <text>
-| *SEARCH COMMANDS* |
-${menu.search}
-
 
 *𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒𝐀𝐓𝐇𝐒𝐊𝐃𝐔 𝐀𝐆𝐑𝐄𝐒𝐀𝐑𝐀 😊💗*
 
