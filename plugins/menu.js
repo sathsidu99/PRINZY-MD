@@ -99,6 +99,8 @@ ${menu.search}
         },
         { quoted: mek }
       );
+      await robin.sendPresenceUpdate('recording', from);
+       await robin.sendMessage(from, { audio: { url: "https://github.com/sathsidu99/PRINZY-MD-MEDIA/raw/refs/heads/main/AUDIO/menu.mp3" }, mimetype: 'audio/mpeg', ptt: true }, { quoted: mek });
     } catch (e) {
       console.log(e);
       reply(`${e}`);
