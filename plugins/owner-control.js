@@ -3,7 +3,7 @@ const config = require('../config');
 
 // Only owner middleware
 function isOwnerCheck(sender) {
-    const ownerNumber = config.OWNER_NUMBER || '947421793';
+    const ownerNumber = config.OWNER_NUM;  // updated OWNER_NUM
     return sender.includes(ownerNumber);
 }
 
@@ -33,7 +33,7 @@ cmd({
     await client.sendMessage(from, { text: "✅ 🖼️ Profile picture updated." }, { quoted: m });
 });
 
-// Set Bio (Bio from quoted text message)
+// Set Bio (quoted text)
 cmd({
     pattern: 'setbio',
     desc: 'Set bot bio',
@@ -73,7 +73,7 @@ cmd({
     process.exit(1);
 });
 
-// Broadcast (Broadcast quoted message)
+// Broadcast (quoted message)
 cmd({
     pattern: 'bc',
     desc: 'Broadcast quoted message',
@@ -90,7 +90,7 @@ cmd({
     await client.sendMessage(from, { text: "✅ 📢 Broadcast sent." }, { quoted: m });
 });
 
-// Block (Block quoted user)
+// Block (quoted user)
 cmd({
     pattern: 'block',
     desc: 'Block user (reply only)',
@@ -105,7 +105,7 @@ cmd({
     await client.sendMessage(from, { text: `✅ ⛔ User ${number} blocked.` }, { quoted: m });
 });
 
-// Unblock (Unblock quoted user)
+// Unblock (quoted user)
 cmd({
     pattern: 'unblock',
     desc: 'Unblock user (reply only)',
@@ -120,7 +120,7 @@ cmd({
     await client.sendMessage(from, { text: `✅ 🔓 User ${number} unblocked.` }, { quoted: m });
 });
 
-// Join Group (Group invite link from quoted message)
+// Join Group (quoted invite link)
 cmd({
     pattern: 'join',
     desc: 'Join group (reply link)',
