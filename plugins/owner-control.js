@@ -33,19 +33,7 @@ cmd({
     await client.sendMessage(from, { text: "✅ 🖼️ Profile picture updated." }, { quoted: m });
 });
 
-// Set Bio (quoted text)
-cmd({
-    pattern: 'setbio',
-    desc: 'Set bot bio',
-    react: "📝",
-    category: 'owner',
-    filename: __filename
-}, async (client, m, message, { from, sender, quoted }) => {
-    if (!isOwnerCheck(sender)) return client.sendMessage(from, { text: "🚫 Only Owner!" }, { quoted: m });
-    if (!quoted || !quoted.body) return client.sendMessage(from, { text: "📄 Reply to text message to set as bio." }, { quoted: m });
-    await client.updateProfileStatus(quoted.body);
-    await client.sendMessage(from, { text: "✅ 📝 Bio updated." }, { quoted: m });
-});
+
 
 // Restart
 cmd({
