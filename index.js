@@ -29,7 +29,10 @@ const { sms, downloadMediaMessage } = require("./lib/msg");
 const axios = require("axios");
 const { File } = require("megajs");
 const prefix = config.PREFIX;
-const { default: fetch } = import('node-fetch');
+(async () => {
+  const { default: fetch } = await import('node-fetch');
+  globalThis.fetch = fetch;
+})();
 const ownerNumber = config.OWNER_NUM;
 
 //===================SESSION-AUTH============================
