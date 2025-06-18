@@ -83,7 +83,6 @@ cmd(
     ▫️.promote
 | *OWNER COMMANDS* |
     ▫️.setpp  
-    ▫️.setbio  
     ▫️.restart  
     ▫️.shutdown  
     ▫️.bc  
