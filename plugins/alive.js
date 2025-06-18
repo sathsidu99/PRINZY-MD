@@ -32,7 +32,7 @@ async (robin, mek, m, { from, quoted, reply }) => {
 
         const creator = "Sathsidu Agresara";
 
-        const contact = "+947421793";
+        const contact = "+94742179316";
 
         const aliveText = `🌟 *Bot is Alive* 🌟
 
