@@ -67,6 +67,7 @@ cmd(
     ▫️.ai <text>
     ▫️.system
     ▫️.owner
+    ▫️.ping
 | *DOWNLOAD COMMANDS* |
     ▫️.song <text>
     ▫️.video <text>
