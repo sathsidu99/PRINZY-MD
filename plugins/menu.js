@@ -82,8 +82,15 @@ cmd(
     ▫️.demote
     ▫️.promote
 | *OWNER COMMANDS* |
-    ▫️.restart
-    ▫️.update
+    ▫️.setpp  
+    ▫️.setbio  
+    ▫️.restart  
+    ▫️.shutdown  
+    ▫️.bc  
+    ▫️.block  
+    ▫️.unblock  
+    ▫️.join  
+    ▫️.leave
 | *CONVERT COMMANDS* |
     ▫️.sticker <reply img>
     ▫️.img <reply sticker>
