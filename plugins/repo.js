@@ -20,9 +20,9 @@ async (conn, mek, m, { from, reply }) => {
 
         const caption = `
 
-*📍 REPO LINK ❤️‍🔥👇*
+*📍 WEBSITE LINK ❤️‍🔥👇*
 
-👨‍💻 ◦ https://github.com/sathsidu99/PRINZY-MD
+👨‍💻 ◦ https://prinzy-md-site.vercel.app/#
 
 *📍 PLEASE FOLLOW MY WHATSAPP CHANNEL ❤️‍🔥👇*
 
