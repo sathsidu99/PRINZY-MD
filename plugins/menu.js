@@ -65,7 +65,7 @@ cmd(
     ▫️.alive
     ▫️.menu
     ▫️.ai <text>
-    ▫️.system
+    ▫️.repo
     ▫️.owner
     ▫️.ping
 | *DOWNLOAD COMMANDS* |
@@ -73,7 +73,6 @@ cmd(
     ▫️.video <text>
     ▫️.fb <link>
 | *GROUP COMMANDS* |
-    ▫️.block
     ▫️.kick
     ▫️.left
     ▫️.mute
@@ -90,9 +89,11 @@ cmd(
     ▫️.unblock  
     ▫️.join  
     ▫️.leave
-| *CONVERT COMMANDS* |
+| *TOOLS COMMANDS* |
     ▫️.sticker <reply img>
     ▫️.img <reply sticker>
+    ▫️.getpp
+
 
 *𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒𝐀𝐓𝐇𝐒𝐊𝐃𝐔 𝐀𝐆𝐑𝐄𝐒𝐀𝐑𝐀 😊💗*
 
