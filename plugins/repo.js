@@ -26,7 +26,7 @@ async (conn, mek, m, { from, reply }) => {
 
 *📍 PLEASE FOLLOW MY WHATSAPP CHANNEL ❤️‍🔥👇*
 
-👨‍💻 ◦ https://whatsapp.com/channel/0029VbAwxJU0AgWCUEx3cj21
+👨‍💻 ◦ https://whatsapp.com/channel/0029VbAtTAg4tRrlSoeQ7e28
 
 > *Powered by SATHSIDU AGRESARA*
 
