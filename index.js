@@ -92,7 +92,8 @@ async function connectToWA() {
 
       let up = `𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈 connected successful ✅
       
-      > POWERED BY STHASINDU AGRESARA 😊💗`;
+      
+      *POWERED BY STHASINDU AGRESARA 😊💗*`;
       let up1 = `Hello SATHSIDU, I made 𝐏𝐑𝐈𝐍𝐙𝐘 𝐌𝐃 🌈 bot successful`;
 
       robin.sendMessage(ownerNumber + "@s.whatsapp.net", {
