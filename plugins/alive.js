@@ -30,11 +30,19 @@ async (robin, mek, m, { from, quoted, reply }) => {
 
         const version = pkg.version || "1.0.0";
 
+        const creator = "Sathsidu Agresara";
+
+        const contact = "+94742179316";
+
         const aliveText = `🌟 *Bot is Alive* 🌟
 
 🤖 *Name:* PRINZY-MD
 
 ⚙️ *Version:* ${version}
+
+👑 *Creator:* ${creator}
+
+📞 *Contact:* ${contact}
 
 ⏰ *Uptime:* ${uptime}
 
